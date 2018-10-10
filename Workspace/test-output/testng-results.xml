@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SunlightFinance Suite" duration-ms="8667" started-at="2018-10-09T11:46:53Z" finished-at="2018-10-09T11:47:01Z">
+    <groups>
+    </groups>
+    <test name="SunlightFinance" duration-ms="8667" started-at="2018-10-09T11:46:53Z" finished-at="2018-10-09T11:47:01Z">
+      <class name="com.sunlight.test.AddUserTest">
+        <test-method status="PASS" signature="AddUserTest()[pri:0, instance:com.sunlight.test.AddUserTest@3ffc5af1]" name="AddUserTest" duration-ms="44" started-at="2018-10-09T17:17:01Z" finished-at="2018-10-09T17:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUserTest -->
+      </class> <!-- com.sunlight.test.AddUserTest -->
+      <class name="com.sunlight.test.LoginPageTest">
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.sunlight.test.LoginPageTest@29774679]" name="Initialization" is-config="true" duration-ms="19306" started-at="2018-10-09T17:16:33Z" finished-at="2018-10-09T17:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialization -->
+        <test-method status="PASS" signature="LoginpageTest()[pri:0, instance:com.sunlight.test.LoginPageTest@29774679]" name="LoginpageTest" duration-ms="8609" started-at="2018-10-09T17:16:53Z" finished-at="2018-10-09T17:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.sunlight.test.LoginPageTest@29774679]" name="close" is-config="true" duration-ms="0" started-at="2018-10-09T17:17:02Z" finished-at="2018-10-09T17:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.sunlight.test.LoginPageTest -->
+    </test> <!-- SunlightFinance -->
+  </suite> <!-- SunlightFinance Suite -->
+</testng-results>

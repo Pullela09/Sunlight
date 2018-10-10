@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="SunlightFinance Suite" parallel="false">
+  <test name="SunlightFinance" preserve-order="true" annotations="JDK"> 
+    
+    <classes> 
+      <class name="com.sunlight.test.LoginPageTest"/>
+      <class name="com.sunlight.test.AddUserTest"/>
+    </classes> 
+  </test> 
+</suite>

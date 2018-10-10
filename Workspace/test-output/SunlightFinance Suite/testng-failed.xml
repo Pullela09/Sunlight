@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [SunlightFinance Suite]">
+  <test name="SunlightFinance(failed)">
+    <classes>
+      <class name="com.sunlight.test.LoginPageTest">
+        <methods>
+          <include name="LoginpageTest"/>
+          <include name="close"/>
+          <include name="Initialization"/>
+        </methods>
+      </class> <!-- com.sunlight.test.LoginPageTest -->
+      <class name="com.sunlight.test.AddUserTest">
+        <methods>
+          <include name="AddUserTest"/>
+        </methods>
+      </class> <!-- com.sunlight.test.AddUserTest -->
+    </classes>
+  </test> <!-- SunlightFinance(failed) -->
+</suite> <!-- Failed suite [SunlightFinance Suite] -->
